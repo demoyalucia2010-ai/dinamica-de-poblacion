@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dinámica de población</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f7f5;
+    color: #263b39;
+}
+
+header {
+    background: linear-gradient(135deg, #075b53, #22a58b);
+    color: white;
+    text-align: center;
+    padding: 55px 20px;
+}
+
+header h1 {
+    font-size: 35px;
+    margin-bottom: 12px;
+}
+
+header p {
+    font-size: 17px;
+}
+
+nav {
+    background: #064b45;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: #a9f5d8;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    background: white;
+    padding: 25px;
+    margin: 22px 0;
+    border-radius: 15px;
+    box-shadow: 0 3px 12px #00000012;
+}
+
+h2 {
+    color: #08796b;
+}
+
+.card {
+    background: #e5f5ef;
+    padding: 15px;
+    border-radius: 12px;
+    margin: 12px 0;
+}
+
+.banner {
+    background: #d1eee4;
+    text-align: center;
+    padding: 25px;
+    border-radius: 15px;
+    font-size: 55px;
+}
+
+img {
+    width: 100%;
+    max-height: 320px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-top: 12px;
+}
+
+footer {
+    background: #064b45;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+strong {
+    color: #08796b;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🌎 DINÁMICA DE POBLACIÓN</h1>
+    <p>Conociendo los cambios y el crecimiento de los seres vivos en nuestro planeta.</p>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#concepto">Concepto</a>
+    <a href="#factores">Factores</a>
+    <a href="#crecimiento">Crecimiento</a>
+    <a href="#importancia">Importancia</a>
+</nav>
+
+<main>
+
+<section id="inicio">
+    <div class="banner">🌳 🐦 🌎 👨‍👩‍👧‍👦</div>
+    <h2>Bienvenidos</h2>
+    <p>En esta página aprenderemos qué es la dinámica de población, cuáles son sus características y cómo cambian las poblaciones con el paso del tiempo. También conoceremos los factores que influyen en su crecimiento y distribución.</p>
+</section>
+
+<section id="concepto">
+    <h2>📚 ¿Qué es la dinámica de población?</h2>
+    <p>La dinámica de población es el estudio de los cambios que experimenta una población a través del tiempo. Estos cambios pueden ocurrir por los nacimientos, las muertes y los desplazamientos de los individuos de un lugar a otro.</p>
+    <p>Permite comprender cómo aumentan, disminuyen o se mantienen las poblaciones de seres humanos, animales y plantas.</p>
+</section>
+
+<section id="factores">
+    <h2>🔍 Factores que influyen en la población</h2>
+
+    <div class="card">
+        <h3>👶 1. Natalidad</h3>
+        <p>Es la cantidad de nacimientos que ocurren en una población durante un tiempo determinado.</p>
+    </div>
+
+    <div class="card">
+        <h3>⚰️ 2. Mortalidad</h3>
+        <p>Es la cantidad de individuos que mueren en una población durante un período de tiempo.</p>
+    </div>
+
+    <div class="card">
+        <h3>🚶 3. Inmigración</h3>
+        <p>Es la llegada de individuos de otros lugares a una población.</p>
+    </div>
+
+    <div class="card">
+        <h3>🧳 4. Emigración</h3>
+        <p>Es la salida de individuos de una población para establecerse en otro lugar.</p>
+    </div>
+</section>
+
+<section id="crecimiento">
+    <h2>📈 Crecimiento poblacional</h2>
+    <p>El crecimiento poblacional es el aumento o la disminución del número de individuos que forman una población.</p>
+
+    <div class="card">
+        <h3>📈 Crecimiento positivo</h3>
+        <p>Ocurre cuando nacen más individuos de los que mueren y llegan más de los que se van.</p>
+    </div>
+
+    <div class="card">
+        <h3>📉 Crecimiento negativo</h3>
+        <p>Se presenta cuando mueren más individuos de los que nacen o se van más de los que llegan.</p>
+    </div>
+
+    <div class="card">
+        <h3>⚖️ Crecimiento estable</h3>
+        <p>Se produce cuando la cantidad de individuos se mantiene relativamente constante.</p>
+    </div>
+</section>
+
+<section>
+    <h2>🌱 ¿Qué factores afectan las poblaciones?</h2>
+    <p>Existen diferentes condiciones que pueden modificar el tamaño de una población:</p>
+    <ul>
+        <li>Disponibilidad de agua y alimentos.</li>
+        <li>Cambios en el clima.</li>
+        <li>Enfermedades.</li>
+        <li>Depredadores y competencia.</li>
+        <li>Destrucción de los hábitats.</li>
+        <li>Desastres naturales.</li>
+    </ul>
+</section>
+
+<section id="importancia">
+    <h2>💚 Importancia de estudiar la dinámica de población</h2>
+    <p>Estudiar la dinámica de población es importante porque nos ayuda a comprender el equilibrio de los ecosistemas, proteger las especies y aprovechar responsablemente los recursos naturales.</p>
+    <p>También permite identificar problemas ambientales y buscar soluciones para conservar la biodiversidad.</p>
+</section>
+
+<section>
+    <h2>📝 Conclusión</h2>
+    <p>La dinámica de población nos enseña que todos los seres vivos forman parte de un ambiente en constante cambio. Conocer estos procesos nos ayuda a cuidar la naturaleza, proteger las especies y mantener el equilibrio de nuestro planeta.</p>
+</section>
+
+</main>
+
+<footer>
+    <h3>🌎 ¡Cuidemos nuestro planeta!</h3>
+    <p>Proyecto de Ciencias Naturales</p>
+    <p>Dinámica de población</p>
+</footer>
+
+</body>
+</html>
